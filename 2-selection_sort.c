@@ -23,10 +23,10 @@ tmpo = *a;
 void selection_sort(int *array, size_t size)
 {
 int *min;
-size_t i,j;
+size_t i, j;
 if (array == NULL || size < 2)
 return;
-for (i=0; i < size - 1; i++)
+for (i = 0; i < size - 1; i++)
 {
 min = array + i;
 for (j = i + 1; j < size; j++)
